@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="stylescalculator.css" />
+    </head>
+
+    <body>
+            <h1 class="title">calcU</h1>
+    
+            <h3 class="desc">This is a simple calculator.</h3>
+            <h3 class="desc2">Input two numbers and click an operation.</h3>
+            <div id="calculator"></div>
+           
+            <div class="input">
+            <input type="number" id="num1" placeholder="Num 1">
+            <input type="number" id="num2" placeholder="Num 2">
+            </div>
+    
+            <div class="button">
+                  <button onclick="calculate('+')">+</button>
+                  <button onclick="calculate('-')">-</button>
+                  <button onclick="calculate('*')">*</button>
+                  <button onclick="calculate('/')">/</button>
+                  <button onclick="calculate('%')">%</button>
+            </div>
+    
+            <h3 id="result">Results will be displayed here.</h3>
+        
+    </body>
+    
+        <script src="script.js"></script>
+</html>

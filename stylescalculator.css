@@ -1,0 +1,22 @@
+.body{
+    padding:25px;
+    background-color: #FDE6A3;
+    color:black;
+    text-align: center;
+}
+
+#calculator{
+  align-content: center;
+}
+
+.input{
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+
+.title{
+    font-family: Geneva;
+    font-weight: 300;
+}
+
